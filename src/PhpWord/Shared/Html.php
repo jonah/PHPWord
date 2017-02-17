@@ -179,9 +179,10 @@ class Html
             $cNodes = $node->childNodes;
             if (count($cNodes) > 0) {
                 foreach ($cNodes as $cNode) {
-                    if ($element instanceof AbstractContainer) {
+                    // The if interfered with table parsing.  Jonah B  2/16/17 5:20 PM
+                    //if ($element instanceof AbstractContainer) {
                         self::parseNode($cNode, $element, $styles, $data);
-                    }
+                    //}
                 }
             }
         }

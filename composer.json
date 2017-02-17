@@ -29,7 +29,10 @@
         {
             "name": "Roman Syroeshko",
             "homepage": "http://ru.linkedin.com/pub/roman-syroeshko/34/a53/994/"
-        }
+        },
+        {
+            "name": "Jonah Baker"
+        }       
     ],
     "require": {
         "php": ">=5.3.3",
